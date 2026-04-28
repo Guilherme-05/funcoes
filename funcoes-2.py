@@ -74,4 +74,4 @@ while True:
 
 # Usamos ** para desempacotar o dicioário como argumentos
 
-exibir_info(**info_usuario):
+exibir_info(**info_usuario)
