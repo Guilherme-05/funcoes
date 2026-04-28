@@ -5,5 +5,5 @@ def formatar_dinheiro_PraReal(valor):
     texto = texto.replace("X", ".")
     return texto
 
-preco = int(input("Informe o valor: "))
+preco = float(input("Informe o valor: "))
 print(formatar_dinheiro_PraReal(preco))
